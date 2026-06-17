@@ -1,49 +1,59 @@
-# GabbyCloudSec
+```markdown
+# GabbyCloudSec Portfolio
 
-SOC-focused cybersecurity candidate building hands-on experience in cloud security, Linux systems, network troubleshooting, and SOC-style investigation workflows.
+Professional portfolio website showcasing my journey toward becoming a Cloud Security Engineer.
 
----
+## About
 
-## Portfolio
-
-Personal cybersecurity portfolio showcasing hands-on projects in cloud security, Linux, networking, and SOC-related labs.
-
-https://gabbycloudsec.github.io/
-
----
-
-## Focus Areas
-
-- SOC operations and alert analysis  
-- Log analysis and incident investigation  
-- Linux system administration  
-- AWS cloud security fundamentals  
-- Network troubleshooting  
-- Security monitoring basics  
-
----
+I'm Gabriell, an aspiring Cloud Security Engineer focused on developing practical skills in AWS, Linux, Python, networking, and security automation. I document my learning through labs, projects, and continuous study while building a strong foundation in cloud security and infrastructure.
 
 ## Featured Projects
 
-- AWS Secure Web Server — Secured EC2 deployment with access control and logging  
-- SOC Incident Investigation Lab — Log analysis and SOC-style investigation workflow  
-- Network Troubleshooting Lab — Connectivity diagnostics using ping and traceroute  
-- Cloud Automation Scripts — Bash-based system monitoring and automation  
-- AWS Cloud Fundamentals — AWS architecture and networking notes  
+### Linux Notes
 
----
+Documentation and command references covering Linux administration and security fundamentals.
 
-## Skills
+### Cloud Security Notes
 
-- Linux command-line operations  
-- AWS EC2 and cloud infrastructure  
-- Network troubleshooting  
-- Bash scripting  
-- Windows Event Log analysis  
-- Security investigation fundamentals  
+Study notes covering AWS security concepts and cloud security best practices.
 
----
+### AWS Security Labs
 
-## Goal
+Hands-on labs focused on IAM, EC2, S3, VPC, CloudTrail, and Security Groups.
 
-Build job-ready SOC analyst skills through structured labs, hands-on cloud projects, and security-focused investigation practice.
+### Python Security Tools
+
+Security and automation tools written in Python.
+
+### Network Troubleshooting Lab
+
+Practical networking exercises and troubleshooting techniques.
+
+### Cloud Automation Scripts
+
+Automation projects using Python, Bash, and AWS CLI.
+
+## Certifications
+
+- ISC2 Candidate
+- Certified in Cybersecurity (CC) — In Progress
+- AWS Certified Cloud Practitioner — In Progress
+
+## Technologies
+
+- AWS
+- Linux
+- Python
+- Git
+- GitHub
+- VS Code
+
+## Website
+
+This repository hosts my GitHub Pages portfolio site.
+
+## Status
+
+Active
+```
+
