@@ -1,99 +1,88 @@
-
 <!DOCTYPE html>
 <html>
 
 <head>
-   <title>GabbyCloudSec | SOC & Cybersecurity Portfolio</title>
+    <title>GabbyCloudSec | SOC & Cybersecurity Portfolio</title>
 
     <style>
         body {
-    font-family: Arial, sans-serif;
-    width: 100%;
-    max-width: 900px;
-    margin: auto;
-    padding: 20px;
-    line-height: 1.6;
-    color: #cbd5e1;
+            font-family: Arial, sans-serif;
+            width: 100%;
+            max-width: 900px;
+            margin: auto;
+            padding: 20px;
+            line-height: 1.6;
+            color: #cbd5e1;
 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-text-align: left;
-    gap: 18px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: left;
+            gap: 18px;
 
-   background:
-    radial-gradient(circle at top left, rgba(6,182,212,0.05), transparent 70%),
-    radial-gradient(circle at top right, rgba(59,130,246,0.04), transparent 70%),
-    radial-gradient(circle at bottom, rgba(99,102,241,0.03), transparent 75%),
-    #020617;
+            background:
+                radial-gradient(circle at top left, rgba(6,182,212,0.05), transparent 70%),
+                radial-gradient(circle at top right, rgba(59,130,246,0.04), transparent 70%),
+                radial-gradient(circle at bottom, rgba(99,102,241,0.03), transparent 75%),
+                #020617;
+        }
 
-header {
-    text-align: center;
-    padding: 40px 0;
-    width: 100%;
-}
+        header {
+            text-align: center;
+            padding: 40px 0;
+            width: 100%;
+        }
 
-nav a {
-    margin-right: 15px;
-    text-decoration: none;
-    font-weight: bold;
-    color: #60a5fa;
-}
+        nav a {
+            margin-right: 12px;
+            padding: 6px 10px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: 600;
+            color: #60a5fa;
+            transition: 0.2s ease;
+        }
 
-.section {
-    width: 100%;
-    max-width: 800px;
-    background: rgba(15, 23, 42, 0.75);
-    border: 1px solid rgba(59,130,246,0.10);
-    border-radius: 16px;
-    padding: 28px;
-    margin-bottom: 22px;
-    text-align: left;
-}
+        nav a:hover {
+            background: rgba(59,130,246,0.15);
+            color: #93c5fd;
+        }
 
-.hero-title {
-    font-size: 3.8rem;
-    color: #e2e8f0;
-    letter-spacing: 2px;
-    text-shadow:
-        0 0 6px rgba(6,182,212,0.15),
-        0 0 10px rgba(59,130,246,0.10);
-}
+        .section {
+            width: 100%;
+            max-width: 800px;
+            background: rgba(15, 23, 42, 0.75);
+            border: 1px solid rgba(59,130,246,0.10);
+            border-radius: 16px;
+            padding: 28px;
+            margin-bottom: 22px;
+        }
 
-.section:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 10px 25px rgba(59,130,246,0.15);
-}
+        .hero-title {
+            font-size: 3.8rem;
+            color: #e2e8f0;
+            letter-spacing: 2px;
+        }
 
-     .project {
-    border-left: 4px solid #3b82f6;
-    padding: 14px 16px;
-    margin-top: 12px;
-    margin-bottom: 12px;
-    background: rgba(2, 6, 23, 0.4);
-    border-radius: 12px;
-    transition: 0.2s ease;
-}
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 8px;
+        }
 
-.project:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 10px 25px rgba(59,130,246,0.10);
-}
+        h2 {
+            font-size: 1.5rem;
+            margin-bottom: 12px;
+            color: #e2e8f0;
+        }
 
-        p {
-    line-height: 1.7;
-    color: #cbd5e1;
-}
-        .tag {
-    display: inline-block;
-    background: rgba(59,130,246,0.15);
-    color: #cbd5e1;
-    padding: 6px 10px;
-    border-radius: 8px;
-    margin: 5px;
-    border: 1px solid rgba(139,92,246,0.35);
-    font-size: 12px;
-}
+        .project {
+            border-left: 4px solid #3b82f6;
+            padding: 14px 16px;
+            margin-top: 12px;
+            margin-bottom: 12px;
+            background: rgba(2, 6, 23, 0.4);
+            border-radius: 12px;
+        }
 
         a {
             color: #60a5fa;
@@ -103,60 +92,21 @@ nav a {
             color: #93c5fd;
         }
 
-        a.button {
-            display: inline-block;
-            padding: 8px 14px;
-            background: linear-gradient(90deg,#3b82f6,#8b5cf6);
-            color: white !important;
-            border-radius: 8px;
-            text-decoration: none;
-            font-weight: bold;
+        ul {
+            padding-left: 20px;
         }
-
-        a.button:hover {
-            background: #3b82f6;
-            transform: translateY(-1px);
-        }
-
-        h1 {
-    font-size: 3rem;
-    margin-bottom: 5px;
-}
-
-nav a {
-    margin-right: 12px;
-    padding: 6px 10px;
-    border-radius: 6px;
-    text-decoration: none;
-    font-weight: 600;
-    color: #60a5fa;
-    transition: 0.2s ease;
-}
-
-nav a:hover {
-    background: rgba(59,130,246,0.15);
-    color: #93c5fd;
-}
-
-h1 {
-    font-size: 3rem;
-    margin-bottom: 8px;
-}
-
-h2 {
-    font-size: 1.5rem;
-    margin-bottom: 12px;
-    color: #e2e8f0;
-}
-
     </style>
 </head>
 
 <body>
 
 <header>
-   <h1 class="hero-title">GabbyCloudSec</h1>
-   <p>SOC Analyst | Cloud Security | Cybersecurity</p>
+    <h1 class="hero-title">GabbyCloudSec</h1>
+
+    <p>
+        SOC-focused cybersecurity candidate building hands-on experience in cloud security, Linux systems, network troubleshooting, and SOC-style investigation workflows.
+    </p>
+
     <nav>
         <a href="#about">About</a>
         <a href="#skills">Skills</a>
@@ -166,96 +116,79 @@ h2 {
     </nav>
 </header>
 
+<!-- ABOUT -->
 <div class="section" id="about">
     <h2>About Me</h2>
     <p>
-        I am building hands-on experience in cybersecurity, SOC operations, Linux systems, and cloud security through practical labs, incident investigations, and continuous learning. My focus is understanding how systems are monitored, secured, and defended in real-world environments.
+        I am building hands-on experience in cybersecurity, SOC operations, Linux systems, and cloud security through practical labs, incident investigations, and structured learning.
     </p>
 </div>
 
+<!-- SKILLS -->
 <div class="section" id="skills">
     <h2>Skills</h2>
 
-    <span class="tag">SOC Operations</span>
-    <span class="tag">SIEM Fundamentals</span>
-    <span class="tag">Linux</span>
-    <span class="tag">Windows Event Analysis</span>
-    <span class="tag">Networking</span>
-    <span class="tag">Log Analysis</span>
-    <span class="tag">Git & GitHub</span>
-    <span class="tag">Cloud Security</span>
-</div>
-<div class="project">
-    <div class="project">
-    <h3>Secure AWS Web Server (Flagship Project)</h3>
-
     <p>
-        Deployed and secured a Linux EC2 instance in AWS with network restrictions, SSH access control, and basic system logging.
-    </p>
-
-    <p>
-        <a href="https://github.com/GabbyCloudSec/aws-secure-web-server" target="_blank">
-            View Project
-        </a>
+        SOC Operations • SIEM Fundamentals • Linux • Windows Event Analysis • Networking • Log Analysis • Git & GitHub • Cloud Security
     </p>
 </div>
+
+<!-- PROJECTS -->
 <div class="section" id="projects">
     <h2>Projects</h2>
 
     <div class="project">
-        <h3>SOC Foundations Lab</h3>
-        <p>
-            Security investigation project documenting Linux log analysis, SIEM concepts, Windows event analysis, and attack correlation through structured SOC case studies.
-        </p>
-
-        <p>
-            <a href="https://github.com/GabbyCloudSec/thm-soc-foundations-lab" target="_blank">
-                View Project →
-            </a>
-        </p>
+        <h3>AWS Secure Web Server</h3>
+        <p>Deployed and secured a Linux EC2 instance in AWS with network restrictions, SSH access control, and system logging.</p>
+        <a href="https://github.com/GabbyCloudSec/aws-secure-web-server" target="_blank">View Project →</a>
     </div>
 
     <div class="project">
-        <h3>Networking & Linux Fundamentals</h3>
-        <p>
-            Hands-on labs covering networking concepts, Linux administration, file permissions, process management, and system troubleshooting.
-        </p>
+        <h3>SOC Incident Investigation Lab</h3>
+        <p>SOC-style log analysis and security investigation workflow using structured incident investigation methods.</p>
+        <a href="https://github.com/GabbyCloudSec/soc-incident-investigation-lab" target="_blank">View Project →</a>
     </div>
 
     <div class="project">
-        <h3>SOC Level 1 Learning Path</h3>
-        <p>
-            Ongoing training in log analysis, Windows event monitoring, SIEM fundamentals, and threat detection using TryHackMe lab environments.
-        </p>
+        <h3>Network Troubleshooting Lab</h3>
+        <p>Network diagnostics using ping and traceroute to analyze connectivity issues and routing behavior.</p>
+    </div>
+
+    <div class="project">
+        <h3>Cloud Automation Scripts</h3>
+        <p>Bash-based system monitoring and automation scripts for Linux environments.</p>
+    </div>
+
+    <div class="project">
+        <h3>AWS Cloud Fundamentals</h3>
+        <p>AWS architecture notes and foundational cloud security and networking concepts.</p>
     </div>
 </div>
 
+<!-- CERTS -->
 <div class="section" id="certs">
     <h2>Certifications & Training</h2>
 
     <ul>
-        <li><strong>ISC2 Candidate</strong></li>
-        <li><strong>Cisco Networking Academy</strong> – Cybersecurity Path</li>
-        <li><strong>HP LIFE</strong> – Data Analytics & Leadership</li>
-        <li><strong>TryHackMe</strong> – Pre Security Path Completed</li>
+        <li>ISC2 Candidate</li>
+        <li>Cisco Networking Academy – Cybersecurity Path</li>
+        <li>HP LIFE – Data Analytics & Leadership</li>
+        <li>TryHackMe – Pre Security Path Completed</li>
     </ul>
 </div>
 
+<!-- CONTACT -->
 <div class="section" id="contact">
     <h2>Contact</h2>
 
     <p>Email: gabbycloudsec@protonmail.com</p>
 
     <p>
-        <a href="mailto:gabbycloudsec@protonmail.com">
-            Send Email
-        </a>
+        <a href="mailto:gabbycloudsec@protonmail.com">Send Email</a>
     </p>
 
     <p>
-        <a href="https://github.com/GabbyCloudSec" target="_blank">
-            View GitHub Profile
-        </a>
+        <a href="https://github.com/GabbyCloudSec" target="_blank">GitHub Profile</a>
     </p>
 </div>
 
