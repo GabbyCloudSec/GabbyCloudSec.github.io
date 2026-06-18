@@ -1,3 +1,8 @@
+
+
+```html
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -6,119 +11,14 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-    *{
-    box-sizing:border-box;
-    margin:0;
-    padding:0;
-}
-
-body{
-    font-family:Arial,sans-serif;
-    max-width:1100px;
-    margin:auto;
-    padding:20px;
-    line-height:1.7;
-    color:#cbd5e1;
-
-    background:
-    linear-gradient(rgba(2,6,23,.75),rgba(2,6,23,.88)),
-    url("assets/earth-background.png");
-
-    background-size:cover;
-    background-position:center;
-    background-attachment:fixed;
-}
-
-header{
-    text-align:center;
-    padding:80px 0 50px;
-}
-
-.hero-title{
-    font-size:5rem;
-    color:white;
-
-    text-shadow:
-    0 0 15px rgba(34,211,238,.3),
-    0 0 40px rgba(34,211,238,.2);
-}
-
-.subtitle{
-    color:#94a3b8;
-    font-size:1.2rem;
-    margin-top:15px;
-}
-
-nav{
-    margin-top:30px;
-}
-
-nav a{
-    color:#60a5fa;
-    text-decoration:none;
-    padding:10px 16px;
-    border-radius:8px;
-    transition:.3s;
-}
-
-nav a:hover{
-    background:rgba(59,130,246,.15);
-}
-
-.section{
-    background:rgba(15,23,42,.45);
-
-    backdrop-filter:blur(18px);
-
-    border:1px solid rgba(34,211,238,.15);
-
-    box-shadow:
-    0 0 20px rgba(34,211,238,.08);
-
-    border-radius:20px;
-
-    padding:30px;
-
-    margin-bottom:30px;
-}
-
-.section:hover{
-    box-shadow:
-    0 0 35px rgba(34,211,238,.18);
-}
-
-h2{
-    margin-bottom:20px;
-}
-
-.project{
-    background:rgba(2,6,23,.55);
-
-    border-left:4px solid #22d3ee;
-
-    border-radius:14px;
-
-    padding:20px;
-
-    margin-bottom:20px;
-}
-
-a{
-    color:#60a5fa;
-}
-
-ul{
-    padding-left:20px;
-}
-</head>
-
 <body>
 
 <header>
     <h1 class="hero-title">Gabriell Bedoy</h1>
-<p>
-Building secure cloud environments through AWS, Linux, Python, networking, and automation.
-</p>
+
+    <p class="subtitle">
+        Aspiring Cloud Security Engineer building hands-on experience in AWS, Linux, Python, networking, and automation.
+    </p>
 
     <nav>
         <a href="#about">About</a>
@@ -129,81 +29,91 @@ Building secure cloud environments through AWS, Linux, Python, networking, and a
     </nav>
 </header>
 
-<!-- ABOUT -->
 <div class="section" id="about">
     <h2>About Me</h2>
+
     <p>
-        I am building hands-on experience in cybersecurity, SOC operations, Linux systems, and cloud security through practical labs, incident investigations, and structured learning.
+        I am building practical experience in cybersecurity, Linux, networking, and cloud security through hands-on labs and continuous learning. My goal is to become a Cloud Security Engineer and design secure cloud environments using industry best practices.
     </p>
 </div>
 
-<!-- SKILLS -->
 <div class="section" id="skills">
     <h2>Skills</h2>
 
     <p>
-        SOC Operations • SIEM Fundamentals • Linux • Windows Event Analysis • Networking • Log Analysis • Git & GitHub • Cloud Security
+        AWS • IAM • EC2 • S3 • VPC • Linux • Python • Bash • Networking • Git • GitHub • VS Code • Cloud Security
     </p>
 </div>
 
-<!-- PROJECTS -->
 <div class="section" id="projects">
     <h2>Projects</h2>
 
     <div class="project">
-        <h3>AWS Secure Web Server</h3>
-        <p>Deployed and secured a Linux EC2 instance in AWS with network restrictions, SSH access control, and system logging.</p>
-        <a href="https://github.com/GabbyCloudSec/aws-secure-web-server" target="_blank">View Project →</a>
+        <h3>Linux Notes</h3>
+        <p>Linux administration and security fundamentals.</p>
+        <a href="https://github.com/GabbyCloudSec/linux-notes" target="_blank">
+            View Project →
+        </a>
     </div>
 
     <div class="project">
-        <h3>SOC Incident Investigation Lab</h3>
-        <p>SOC-style log analysis and security investigation workflow using structured incident investigation methods.</p>
-        <a href="https://github.com/GabbyCloudSec/soc-incident-investigation-lab" target="_blank">View Project →</a>
+        <h3>Cloud Security Notes</h3>
+        <p>AWS security concepts and cloud security best practices.</p>
+        <a href="https://github.com/GabbyCloudSec/cloud-security-notes" target="_blank">
+            View Project →
+        </a>
     </div>
 
     <div class="project">
-        <h3>Network Troubleshooting Lab</h3>
-        <p>Network diagnostics using ping and traceroute to analyze connectivity issues and routing behavior.</p>
+        <h3>AWS Security Labs</h3>
+        <p>Hands-on AWS labs covering IAM, EC2, S3, VPC, Security Groups, and CloudTrail.</p>
+        <a href="https://github.com/GabbyCloudSec/aws-security-labs" target="_blank">
+            View Project →
+        </a>
     </div>
 
     <div class="project">
-        <h3>Cloud Automation Scripts</h3>
-        <p>Bash-based system monitoring and automation scripts for Linux environments.</p>
-    </div>
-
-    <div class="project">
-        <h3>AWS Cloud Fundamentals</h3>
-        <p>AWS architecture notes and foundational cloud security and networking concepts.</p>
+        <h3>Python Security Tools</h3>
+        <p>Automation and security scripts written in Python.</p>
+        <a href="https://github.com/GabbyCloudSec/python-security-tools" target="_blank">
+            View Project →
+        </a>
     </div>
 </div>
 
-<!-- CERTS -->
 <div class="section" id="certs">
     <h2>Certifications & Training</h2>
 
     <ul>
         <li>ISC2 Candidate</li>
-        <li>Cisco Networking Academy – Cybersecurity Path</li>
-        <li>HP LIFE – Data Analytics & Leadership</li>
         <li>TryHackMe – Pre Security Path Completed</li>
+        <li>Cisco Networking Academy</li>
+        <li>AWS Certified Cloud Practitioner – In Progress</li>
     </ul>
 </div>
 
-<!-- CONTACT -->
 <div class="section" id="contact">
     <h2>Contact</h2>
 
     <p>Email: gabbycloudsec@protonmail.com</p>
 
     <p>
-        <a href="mailto:gabbycloudsec@protonmail.com">Send Email</a>
+        <a href="mailto:gabbycloudsec@protonmail.com">
+            Send Email
+        </a>
     </p>
 
     <p>
-        <a href="https://github.com/GabbyCloudSec" target="_blank">GitHub Profile</a>
+        <a href="https://github.com/GabbyCloudSec" target="_blank">
+            GitHub Profile
+        </a>
     </p>
 </div>
 
+<footer>
+    <p>© 2025 Gabriell Bedoy | Cloud Security Portfolio</p>
+</footer>
+
 </body>
 </html>
+```
