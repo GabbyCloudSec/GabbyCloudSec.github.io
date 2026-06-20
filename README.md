@@ -1,59 +1,55 @@
-```markdown
 # GabbyCloudSec Portfolio
 
-Professional portfolio website showcasing my journey toward becoming a Cloud Security Engineer.
+## Overview
 
-## About
+This repository contains the source code for my personal portfolio website. The site highlights my projects, certifications, technical skills, and ongoing development in cloud security and cybersecurity.
 
-I'm Gabriell, an aspiring Cloud Security Engineer focused on developing practical skills in AWS, Linux, Python, networking, and security automation. I document my learning through labs, projects, and continuous study while building a strong foundation in cloud security and infrastructure.
+## Technologies Used
 
-## Featured Projects
+* HTML
+* CSS
+* Git
+* GitHub Pages
+* VS Code
 
-### Linux Notes
+## Features
 
-Documentation and command references covering Linux administration and security fundamentals.
+* Responsive design
+* Modern user interface
+* Project showcase
+* Certifications section
+* Skills section
+* Contact information
+* GitHub Pages deployment
 
-### Cloud Security Notes
+## Skills Demonstrated
 
-Study notes covering AWS security concepts and cloud security best practices.
+* Web Development
+* Git and GitHub
+* Documentation
+* Version Control
+* Portfolio Design
+* Problem Solving
 
-### AWS Security Labs
+## What I Learned
 
-Hands-on labs focused on IAM, EC2, S3, VPC, CloudTrail, and Security Groups.
+Building this portfolio strengthened my understanding of HTML, CSS, Git, and GitHub Pages. It also provided experience maintaining a professional online presence and presenting projects effectively.
 
-### Python Security Tools
+## Future Improvements
 
-Security and automation tools written in Python.
+* Add additional cloud security projects
+* Expand certifications section
+* Improve accessibility
+* Add architecture diagrams
+* Continue refining the design
 
-### Network Troubleshooting Lab
+## Live Portfolio
 
-Practical networking exercises and troubleshooting techniques.
+https://gabbycloudsec.github.io
 
-### Cloud Automation Scripts
+## Author
 
-Automation projects using Python, Bash, and AWS CLI.
+Gabriell Bedoy
 
-## Certifications
-
-- ISC2 Candidate
-- Certified in Cybersecurity (CC) — In Progress
-- AWS Certified Cloud Practitioner — In Progress
-
-## Technologies
-
-- AWS
-- Linux
-- Python
-- Git
-- GitHub
-- VS Code
-
-## Website
-
-This repository hosts my GitHub Pages portfolio site.
-
-## Status
-
-Active
-```
+GitHub: https://github.com/GabbyCloudSec
 
