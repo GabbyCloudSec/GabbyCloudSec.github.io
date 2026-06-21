@@ -399,6 +399,21 @@ p { color: var(--ink-dim); margin: 0 0 1em; }
   font-size: 0.78rem;
   color: var(--cyan);
 }
+.project-tags {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.6rem;
+}
+.project-status {
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  letter-spacing: 0.05em;
+  color: var(--ink-faint);
+  border: 1px solid var(--line);
+  border-radius: 3px;
+  padding: 0.1rem 0.45rem;
+}
 .project-tag {
   font-family: var(--font-mono);
   font-size: 0.68rem;
