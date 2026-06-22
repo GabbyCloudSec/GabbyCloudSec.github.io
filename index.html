@@ -46,7 +46,7 @@
         </div>
         <div class="hero-meta">
           <span class="status-dot"></span>
-    <span>ISC2 Candidate &middot; Open to entry-level SOC, IT security &amp; cloud roles</span>
+          <span>ISC2 Candidate &middot; Open to entry-level SOC, IT security &amp; cloud roles</span>
         </div>
       </div>
 
@@ -56,7 +56,49 @@
         <div class="orbit-sat orbit-sat--a"></div>
         <div class="orbit-sat orbit-sat--b"></div>
         <div class="earth">
-          <div class="earth-sphere"></div>
+          <svg class="earth-svg" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+              <radialGradient id="oceanGrad" cx="35%" cy="28%" r="80%">
+                <stop offset="0%" stop-color="#1f6f93"/>
+                <stop offset="55%" stop-color="#134f6e"/>
+                <stop offset="100%" stop-color="#06202e"/>
+              </radialGradient>
+              <radialGradient id="shineGrad" cx="32%" cy="26%" r="40%">
+                <stop offset="0%" stop-color="rgba(255,255,255,0.32)"/>
+                <stop offset="100%" stop-color="rgba(255,255,255,0)"/>
+              </radialGradient>
+              <radialGradient id="shadowGrad" cx="68%" cy="78%" r="60%">
+                <stop offset="0%" stop-color="rgba(0,0,0,0.55)"/>
+                <stop offset="100%" stop-color="rgba(0,0,0,0)"/>
+              </radialGradient>
+              <clipPath id="globeClip">
+                <circle cx="100" cy="100" r="98"/>
+              </clipPath>
+            </defs>
+
+            <g clip-path="url(#globeClip)">
+              <circle cx="100" cy="100" r="98" fill="url(#oceanGrad)"/>
+
+              <g class="earth-landmasses" fill="#3f6b48">
+                <path d="M72,32 C84,26 98,28 106,36 C116,33 127,40 124,50 C133,55 136,68 127,76 C134,86 127,99 114,100 C117,113 105,126 92,121 C87,132 72,129 69,118 C58,121 50,110 55,99 C45,96 43,83 52,76 C45,68 50,55 61,53 C55,45 60,34 72,32 Z"/>
+                <path class="earth-land-alt" d="M150,38 C163,35 174,44 171,55 C180,61 178,74 167,76 C170,87 159,96 148,91 C141,100 128,95 129,84 C122,80 124,67 133,63 C129,54 138,44 150,38 Z"/>
+                <path class="earth-land-alt" d="M14,86 C25,79 39,84 41,95 C50,97 52,111 41,117 C44,128 32,137 21,130 C12,137 1,128 6,117 C-3,111 0,97 11,93 Z"/>
+              </g>
+
+              <g class="earth-grid" fill="none" stroke="rgba(94,234,212,0.28)" stroke-width="0.6">
+                <ellipse cx="100" cy="100" rx="98" ry="32"/>
+                <ellipse cx="100" cy="100" rx="98" ry="62"/>
+                <path d="M100,2 C45,38 45,162 100,198"/>
+                <path d="M100,2 C155,38 155,162 100,198"/>
+                <line x1="2" y1="100" x2="198" y2="100"/>
+              </g>
+
+              <circle cx="100" cy="100" r="98" fill="url(#shadowGrad)"/>
+              <circle cx="100" cy="100" r="98" fill="url(#shineGrad)"/>
+            </g>
+
+            <circle cx="100" cy="100" r="97" fill="none" stroke="rgba(94,234,212,0.35)" stroke-width="1.2"/>
+          </svg>
           <div class="earth-scan"></div>
           <span class="earth-node earth-node--1"></span>
           <span class="earth-node earth-node--2"></span>
@@ -79,13 +121,15 @@
           rules. That experience is what pulled me toward cybersecurity.
         </p>
         <p>
-          I'm currently an <strong>ISC2 Candidate</strong>. I've completed
-          <strong>TryHackMe's Pre Security Learning Path</strong> and continue earning
-          badges through hands-on rooms, and through <strong>Cisco Networking
-          Academy</strong> I've completed 7 courses and earned 5 badges, including a
-          verified Introduction to Cybersecurity certificate. My goal is to become a
-          cloud security engineer who can design, secure, and support modern cloud
-          infrastructure &mdash; not just talk about it.
+          I'm currently an <strong>ISC2 Candidate</strong> studying for
+          <strong>CompTIA Security+</strong>. I've completed
+          <strong>TryHackMe's Pre Security Learning Path</strong>, I'm now working
+          through <strong>Cyber 101</strong>, and continue earning badges through
+          hands-on rooms. Through <strong>Cisco Networking Academy</strong> I've
+          completed 7 courses and earned 5 badges, including a verified Introduction
+          to Cybersecurity certificate. My goal is to become a cloud security
+          engineer who can design, secure, and support modern cloud infrastructure
+          &mdash; not just talk about it.
         </p>
       </div>
       <div class="about-stats">
@@ -171,7 +215,7 @@
         <span class="project-link">View repo ↗</span>
       </a>
 
-    <a class="project-card" href="https://github.com/GabbyCloudSec/python-security-tools" target="_blank" rel="noopener">
+      <a class="project-card" href="https://github.com/GabbyCloudSec/python-security-tools" target="_blank" rel="noopener">
         <div class="project-tags">
           <span class="project-tag">PYTHON</span>
           <span class="project-status">Planned</span>
@@ -183,7 +227,7 @@
         <span class="project-link">View repo ↗</span>
       </a>
 
-     <a class="project-card" href="https://github.com/GabbyCloudSec/windows-ad-notes" target="_blank" rel="noopener">
+      <a class="project-card" href="https://github.com/GabbyCloudSec/windows-ad-notes" target="_blank" rel="noopener">
         <div class="project-tags">
           <span class="project-tag">WINDOWS</span>
           <span class="project-status">In Progress</span>
@@ -240,6 +284,8 @@
         <span class="stat-label">Current Goals</span>
         <ul class="check-list">
           <li>ISC2 Candidate</li>
+          <li>CompTIA Security+ <em>(Studying)</em></li>
+          <li>TryHackMe Cyber 101 <em>(In Progress)</em></li>
           <li>AWS Cloud Practitioner <em>(In Progress)</em></li>
         </ul>
       </div>
@@ -262,7 +308,7 @@
   <section class="section section--contact" id="contact">
     <p class="eyebrow">// 05 &mdash; contact</p>
     <h2>Let's connect.</h2>
- <p class="contact-lede">Open to entry-level opportunities in SOC analysis,
+    <p class="contact-lede">Open to entry-level opportunities in SOC analysis,
       cybersecurity, IT support, GRC/compliance, and cloud support &mdash;
       bringing a healthcare compliance background into security-focused roles.
       Resume available on request.</p>
