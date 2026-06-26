@@ -32,7 +32,7 @@ with real progress already on the board.
 
 ## Training & Credentials
 
-- ISC2 Candidate &middot; studying for CompTIA Security+
+- Studying for CompTIA Security+
 - **TryHackMe**: 77 rooms completed, 14 badges earned, Capability Score 34
   ("Junior Security Professional" tier), Top 7% rank, 21-day streak — including a completed Pre
   Security Learning Path, now working through Cyber 101
