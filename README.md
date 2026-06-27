@@ -60,7 +60,7 @@ The portfolio is designed as a simple, responsive single-page site with the foll
 
 ## 📈 Training & Progress
 
-- TryHackMe: 77+ rooms, Top 7%, Cyber 101 in progress
+- TryHackMe: 77+ rooms, Top 5%, Cyber 101 in progress
 - Cisco Networking Academy: 7 courses completed
 - AWS Cloud Practitioner: in progress
 - CompTIA Security+: in progress
